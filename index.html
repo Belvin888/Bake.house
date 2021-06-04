@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Bake House</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="img/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#aboutus ">HOME</a></li>
+                        <li><a href="#aboutus ">ABOUT US</a></li>
+                        <li><a href="#ordernow ">ORDER</a></li>
+                        <li><a href="#ordernow  ">CART</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div id="aboutus">
+            <div class="text-box"><h1>BAKE HOUSE</h1>
+            <p>A bakehouse is a building for baking bread. ... Designated bakehouses can be found in archaeological sites from ancient times, e.g., in Roman forts. Historically there have been many types of bakehouses: individual, in the backyards of homesteads; communal, used by residents of a village or a town, and commercial. </p>
+        <a href="" class="main-btn">Know More</a></div></div>
+        </section>
+
+
+
+        <section class="campus">
+            <div id="ordernow"> 
+            <h1>ORDER NOW</h1>
+            <p>*PLACE YOUR ORDER NOW FOR OFFERS</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img class="bake" src="img/P6.jpg">
+                    <div class="layer">
+                        <h3>RED VELVET</h3>
+                    </div>
+
+                </div>
+                <div class="campus-col">
+                    <img class="bake" src="img/P3.jpg">
+                    <div class="layer">
+                        <h3>BLACK FOREST</h3>
+                    </div>
+
+                </div>
+                <div class="campus-col">
+                    <img class="bake" src="img/P4.jpg">
+                    <div class="layer">
+                        <h3>CHOCLATE TRUFFLE</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="facilities">
+            <h1 >CART</h1>
+            <a href="" class="main-btn know">View Cart</a></div>
+
+            
+        </section>
+
+
+        
+
+
+
+
+
+
+        <!---Javascript for the Menu-->
+<script>
+    var navLink=document.getElementById("navLinks");
+    function showMenu(){
+        navLink.style.right="0";
+    }
+    function hideMenu(){
+        navLink.style.right="-200px";
+    }
+</script>
+    </body>
+</html>
